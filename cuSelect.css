@@ -17,6 +17,12 @@
   border: 1px solid rgba(0, 0, 0, 0.18);
   background: white;
 }
+#selectBox:focus{
+  outline: none;
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
 #suggestions{
   display: none;
   position: absolute;
@@ -56,7 +62,7 @@
 ul li{
   font-weight: normal;
 }
-.uid{
+.optionGroup{
   font-weight: bolder;
 }
 .hidecuSelectGroup{
@@ -66,4 +72,13 @@ ul li{
 .hidecuSelectGroup ul{
   visibility: visible;
   font-size: initial;
+}
+input[type=checkbox]{
+  margin-right: 5px;
+}
+input[type=radio]{
+  margin-right: 5px;
+}
+.highlight{
+  background: #a9a9a9;
 }
